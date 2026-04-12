@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  background: #1f1f1f;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+#lista-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+/* RESPONSIVO (celular) */
+@media (max-width: 600px) {
+  #lista-projetos {
+    flex-direction: column;
+  }
+}
