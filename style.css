@@ -38,3 +38,13 @@ section {
     flex-direction: column;
   }
 }
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+}
+
+header {
+  text-align: center;
+}
