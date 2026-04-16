@@ -3,7 +3,5 @@ Este projeto apresenta minhas habilidades em desenvolvimento web, redes e manute
 
 Tecnologias Utilizadas:
 HTML5
-
 CSS3 (Design Responsivo e Dark Mode)
-
 JavaScript
