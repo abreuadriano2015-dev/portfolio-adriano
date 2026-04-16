@@ -47,7 +47,9 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* Centraliza os cards */
+  justify-content: center; /* Isso centraliza os cards no meio da tela */
+  max-width: 800px;        /* Limita a largura para não espalhar demais */
+  margin: 0 auto;          /* Centraliza o bloco todo */
 }
 
 .card {
